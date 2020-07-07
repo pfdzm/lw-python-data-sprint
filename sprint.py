@@ -7,7 +7,13 @@ import seaborn as sns
 
 # fetch csv from https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv
 # %%
-pd.read_csv(
+df = pd.read_csv(
     'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv')
+
+# %%
+df.head()
+
+# %%
+df.info()
 
 # %%
